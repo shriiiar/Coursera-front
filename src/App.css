@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@400;500;800&display=swap");
+
+.container {
+  max-width: min(100%, 1170px) !important;
+  margin-inline: auto;
+}
+
+/* css for scrollbar */
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #7392f8;
+}
+.ag-courses_item:nth-child(1n) {
+  background-color: #3e88cd;
+}
+.ag-courses_item:nth-child(2n) {
+  background-color: #3ecd5e;
+}
+.ag-courses_item:nth-child(3n) {
+  background-color: #7392f8;
+}
+.ag-courses_item:nth-child(4n) {
+  background-color: #9f4bf3;
+}
+.ag-courses_item:nth-child(5n) {
+  background-color: #ec92c8;
+}
+.ag-courses_item:nth-child(6n) {
+  background-color: #49c5ea;
+}
+.ag-courses_item:nth-child(7n) {
+  background-color: #f3a383;
+}
+.ag-courses_item:nth-child(8n) {
+  background-color: #9593ec;
+}
+
+.tt {
+  background-color: #0072de;
+}
+
+.card-color-1 {
+  background-image: linear-gradient(to bottom right, #8800e3, #3e65e6ae);
+}
+
+.card-color-2 {
+  background-image: linear-gradient(to bottom right, #3496a5, #59c4a1);
+}
+
+.card-color-3 {
+  background-image: linear-gradient(to bottom right, #415a77, #778da9);
+}
+
+.checked {
+  border: 5px solid var(--primary-color) !important;
+}
+.react-tabs__tab--selected {
+  background: black !important;
+  color: white !important;
+}
+
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse))) !important;
+  border-bottom-width: calc(0px * var(--tw-divide-y-reverse)) !important;
+}
